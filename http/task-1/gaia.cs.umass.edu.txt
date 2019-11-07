@@ -1,0 +1,104 @@
+No.     Time           Source                Destination           Protocol Length Info
+     27 3.790796       192.168.117.52        128.119.245.12        HTTP     662    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 27: 662 bytes on wire (5296 bits), 662 bytes captured (5296 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 1, Ack: 1, Len: 608
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 4.301441       128.119.245.12        192.168.117.52        HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 31: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 1, Ack: 609, Len: 240
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 9.002132       192.168.117.52        128.119.245.12        HTTP     593    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 78: 593 bytes on wire (4744 bits), 593 bytes captured (4744 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 609, Ack: 241, Len: 539
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 10.447687      192.168.117.52        128.119.245.12        HTTP     593    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 92: 593 bytes on wire (4744 bits), 593 bytes captured (4744 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1, Ack: 1, Len: 539
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 10.961606      128.119.245.12        192.168.117.52        HTTP     1127   HTTP/1.1 200 OK  (text/html)
+
+Frame 98: 1127 bytes on wire (9016 bits), 1127 bytes captured (9016 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 1, Ack: 540, Len: 1073
+Hypertext Transfer Protocol
+Line-based text data: text/html (17 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 10.991029      192.168.117.52        128.119.245.12        HTTP     531    GET /pearson.png HTTP/1.1 
+
+Frame 99: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 540, Ack: 1074, Len: 477
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 11.571529      128.119.245.12        192.168.117.52        HTTP     745    HTTP/1.1 200 OK  (PNG)
+
+Frame 106: 745 bytes on wire (5960 bits), 745 bytes captured (5960 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 3994, Ack: 1017, Len: 691
+[3 Reassembled TCP Segments (3611 bytes): #104(1460), #105(1460), #106(691)]
+Hypertext Transfer Protocol
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 11.573303      192.168.117.52        128.119.245.12        HTTP     545    GET /~kurose/cover_5th_ed.jpg HTTP/1.1 
+
+Frame 108: 545 bytes on wire (4360 bits), 545 bytes captured (4360 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 1, Ack: 1, Len: 491
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 13.006894      128.119.245.12        192.168.117.52        HTTP     632    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 218: 632 bytes on wire (5056 bits), 632 bytes captured (5056 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 100741, Ack: 492, Len: 578
+[71 Reassembled TCP Segments (101318 bytes): #113(1460), #114(1460), #115(1460), #117(1460), #118(1460), #119(1460), #120(1460), #121(1460), #122(1460), #124(1460), #128(1460), #129(1460), #130(1460), #131(1460), #133(1460), #134(1460), #13]
+Hypertext Transfer Protocol
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    220 13.028813      192.168.117.52        128.119.245.12        HTTP     531    GET /favicon.ico HTTP/1.1 
+
+Frame 220: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1017, Ack: 4685, Len: 477
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    223 13.312281      128.119.245.12        192.168.117.52        HTTP     538    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 223: 538 bytes on wire (4304 bits), 538 bytes captured (4304 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 4685, Ack: 1494, Len: 484
+Hypertext Transfer Protocol
+Line-based text data: text/html (7 lines)
