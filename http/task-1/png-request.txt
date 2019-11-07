@@ -1,0 +1,29 @@
+No.     Time           Source                Destination           Protocol Length Info
+     99 10.991029      192.168.117.52        128.119.245.12        HTTP     531    GET /pearson.png HTTP/1.1 
+
+Frame 99: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 540, Ack: 1074, Len: 477
+Hypertext Transfer Protocol
+    GET /pearson.png HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /pearson.png HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /pearson.png
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36\r\n
+    DNT: 1\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/pearson.png]
+    [HTTP request 2/3]
+    [Prev request in frame: 92]
+    [Response in frame: 106]
+    [Next request in frame: 220]
