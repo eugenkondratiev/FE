@@ -1,0 +1,25 @@
+No.     Time           Source                Destination           Protocol Length Info
+     31 4.301441       128.119.245.12        192.168.117.52        HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 31: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 1, Ack: 609, Len: 240
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 304 Not Modified\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 304
+        [Status Code Description: Not Modified]
+        Response Phrase: Not Modified
+    Date: Thu, 07 Nov 2019 18:10:16 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Connection: Keep-Alive\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    ETag: "2ca-596bc33423538"\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.510645000 seconds]
+    [Request in frame: 27]
+    [Next request in frame: 78]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
