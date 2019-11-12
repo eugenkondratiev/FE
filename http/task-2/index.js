@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-require('http').createServer(function(req, res){
+
+require('http').createServer(function (req, res) {
     console.log('new request');
-    if (req.url === '/'){
-    res.end(`<!DOCTYPE html>
+    if (req.url === '/') {
+        res.end(`<!DOCTYPE html>
     <html>
     <body>
     <div id="demo">
@@ -23,10 +24,10 @@ require('http').createServer(function(req, res){
     </script>
     </body>
     </html>`);
-    } else if (req.url === '/hello-world'){
-    res.end('Hello Horld!');
-    } else{
-    res.end('Done');
+    } else if (req.url === '/hello-world') {
+        res.end('Hello Horld!');
+    } else {
+        res.end('Done');
     }
-    }).listen(8080);
-    console.log('server started!');
+}).listen(8080);
+console.log('server started!');
