@@ -1,0 +1,17 @@
+.basetext {
+    margin: 0.3em 0.5em 1em 0.5em;
+    font-size: 1.25em;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 0.2em;
+}
+.basetext h4 {
+    margin-bottom: 0.1em;
+}
+.refs a {
+    margin: 1em;
+}
+
+.basetext a {
+    float:left;
+}
