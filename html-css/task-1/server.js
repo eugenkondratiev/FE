@@ -7,10 +7,11 @@ const fs = require(`fs`);
 
 app.get('/download/:file.jpg', (req, res, next) => {
     try {
-        const filePath = path.join(__dirname, `/img/download/${req.params.file}.jpg`);
+        const filePath = path.join(__dirname, `/img/${req.params.file}.jpg`);
+        console.log(filePath);
         res.writeHead(200, {
             'Content-type': 'application/octet-stream',
-            'Content-Disposition': 'attachment; filename=' + filePath
+            'Content-Disposition': `attachment; filename=${req.params.file}.jpg`
         });
         fs.createReadStream(filePath).pipe(res);
         // res.download(filePath);
