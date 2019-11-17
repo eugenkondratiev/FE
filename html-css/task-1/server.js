@@ -21,6 +21,7 @@ app.get('/download/:file.jpg', (req, res, next) => {
 
 })
 
+app.use(express.static('html-css/task-1/public'))
 app.use(express.static('html-css/task-1'))
 
 

@@ -4,8 +4,11 @@
   "description": "",
   "main": "html-css/task-1/server.js",
   "dependencies": {
+    "csso": "^4.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "lite-server": "^2.5.4",
     "node-sass": "^4.13.0"
