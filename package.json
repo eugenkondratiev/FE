@@ -1,5 +1,5 @@
 {
-  "name": "fe",
+  "name": "fe14",
   "version": "1.0.0",
   "description": "",
   "main": "html-css/task-1/server.js",
@@ -10,12 +10,14 @@
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
     "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "lite-server": "^2.5.4",
     "node-sass": "^4.13.0"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
     "nodemon": "^1.19.4"
   },
   "scripts": {

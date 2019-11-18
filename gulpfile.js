@@ -1,18 +1,21 @@
-const c = require('./constants');
-const {
-    task,
-    src,
-    dest,
-    series,
-    parallel,
-    watch
-} = require('gulp');
-// const gulp = require('gulp');
-const sass = require('gulp-sass');
-const clean = require('gulp-clean');
-const csso = require('gulp-csso');
-// const csso = require('csso');
-const autoprefixer = require('gulp-autoprefixer');
+const c = require('./constants'),
+    {
+        task,
+        src,
+        dest,
+        series,
+        parallel,
+        watch
+    } = require('gulp'),
+    // const gulp = require('gulp');
+    sass = require('gulp-sass'),
+    clean = require('gulp-clean'),
+    csso = require('gulp-csso'),
+    concat = require('gulp-concat'),
+    sourcemaps = require('gulp-sourcemaps'),
+    // const csso = require('csso');
+    autoprefixer = require('gulp-autoprefixer');
+
 console.log(c.DEST_FILES_PATH);
 
 task('clean', () => src(c.DEST_FILES_PATH, { read: false })
@@ -21,17 +24,21 @@ task('clean', () => src(c.DEST_FILES_PATH, { read: false })
 
 task('css', () =>
     src(c.SRC_PATH + 'style/*')
+        .pipe(sourcemaps.init())
         .pipe(csso())
-        .pipe(dest(c.DEST_PATH))
+        .pipe(autoprefixer({ cascade: false }))
+        .pipe(sourcemaps.write('.'))
+        .pipe(dest(c.DEST_PATH + '/style/'))
 )
 
-task('scripts', () => src(c.SRC_PATH + 'script/*')
-    .pipe(dest(c.DEST_PATH))
+task('scripts', () =>
+    src(c.SRC_PATH + 'script/*')
+        .pipe(dest(c.DEST_PATH + '/script/'))
 )
 
 task('images', () =>
     src(c.SRC_PATH + 'img/*')
-        .pipe(dest(c.DEST_PATH))
+        .pipe(dest(c.DEST_PATH + '/img/'))
 )
 
 task('css:watch', () =>
