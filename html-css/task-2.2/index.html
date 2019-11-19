@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Списки</title>
-
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <h4>Спутники некоторых планет</h4>
-    <ul>
+    <!-- <h4>Спутники некоторых планет</h4> -->
+    <ul>Спутники некоторых планет
         <li>Земля
             <ol>
                 <li>Луна</li>
@@ -42,18 +42,71 @@
     <div class="spacediv"></div>
     <aside>
         <h2>Unordered list</h2>
-        <ul>Disc</ul>
-        <ul>Square</ul>
-        <ul></ul>
-        <ul></ul>
+        <ul>
+            <li>Disc
+                <ul type="Disc">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                    <li id="the-button"><button>Уменьшить масштаб документа</button></li>
+                </ul>
+            </li>
+            <li>Square 
+                <ul type="Square">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </li>
+            <li>Circle 
+                <ul type="Circle">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </li>
+            <li>None - no bullets 
+                <ul type="None">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </li>
+        </ul>
     </aside>
-    <div class="right-box">
+    <aside>
         <h2>Ordered list</h2>
-        <ul>Decimal</ul>
-        <ul>Decimal with leading zeros</ul>
-        <ul>Lowercase ascii letters</ul>
-        <ul>Lowercase roman numerals</ul>
-    </div>
+        <ul>
+            <li>Decimal
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </li>
+            <li id="leading-zeros">Decimal with leading zeros
+                <ol >
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </li>
+            <li>Lowercase ascii letters
+                <ol type="a">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </li>
+            <li>Lowercase roman numerals
+                <ol type="i">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </li>
+        </ul>
+    </aside>
     <div class="spacediv"></div>
 
 </body>

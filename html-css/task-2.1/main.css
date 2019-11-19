@@ -4,7 +4,7 @@ th {
 
 td:nth-child(1) {
     font-weight: bold;
-    widows: 50%;
+    width: 40%;
 }
 
 table {
@@ -16,8 +16,8 @@ td, th {
     text-align: left;
     border: black solid 1px;
     padding: 5px;
-    border-right:grey solid 1px;
-    border-bottom: grey solid 1px;
+    border-right-color:grey;
+    border-bottom-color: grey;
 
 }
 td[rowspan] , th{
