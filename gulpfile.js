@@ -23,12 +23,24 @@ task('clean', () => src(c.DEST_FILES_PATH, { read: false })
 );
 
 task('css', () =>
-    src(c.SRC_PATH + 'style/*')
+    src(c.SRC_PATH + 'style/**/*.css')
+        // src(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}')
         .pipe(sourcemaps.init())
         .pipe(csso())
         .pipe(autoprefixer({ cascade: false }))
+        .pipe(concat('main.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(dest(c.DEST_PATH + '/style/'))
+)
+
+task('sass', () =>
+    src(c.SRC_PATH + 'style/sass/*')
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        // .pipe(autoprefixer({ cascade: false}))
+        .pipe(concat('sass.css'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(dest(c.SRC_PATH + 'style/'))
 )
 
 task('scripts', () =>
@@ -41,6 +53,9 @@ task('images', () =>
         .pipe(dest(c.DEST_PATH + '/img/'))
 )
 
+task('sass:watch', () =>
+    watch(c.SRC_PATH + 'style/sass/*.s*ss', series('sass'))
+);
 task('css:watch', () =>
     watch(c.SRC_PATH + 'style/*.css', series('css'))
 );
@@ -52,10 +67,14 @@ task('images:watch', () =>
 );
 
 task('default', series('clean',
+    // series('sass', 'sass:watch'),
+    'sass',
     parallel(
         series('css', 'css:watch'),
         series('images', 'images:watch'),
-        series('scripts', 'scripts:watch')
+        series('scripts', 'scripts:watch'),
+        'sass:watch'
     )
+
 )
 );

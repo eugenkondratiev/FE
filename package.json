@@ -33,5 +33,9 @@
   "bugs": {
     "url": "https://github.com/eugenkondratiev/FE14/issues"
   },
+  "browserslist": [
+    "last 10 version",
+    "not dead"
+  ],
   "homepage": "https://github.com/eugenkondratiev/FE14#readme"
 }
