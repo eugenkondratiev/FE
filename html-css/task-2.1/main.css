@@ -3,7 +3,7 @@ th {
 }
 
 td:nth-child(1) {
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 40%;
 }
 
@@ -20,6 +20,6 @@ td, th {
     border-bottom-color: grey;
 
 }
-td[rowspan] , th{
+td[colspan] , th{
     text-align: center;
 }
