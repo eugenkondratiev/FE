@@ -10,6 +10,8 @@ const c = require('./constants'),
     // const gulp = require('gulp');
     sass = require('gulp-sass'),
     clean = require('gulp-clean'),
+    gulpif = require('gulp-if'),
+    cache = require('gulp-cache'),
     csso = require('gulp-csso'),
     concat = require('gulp-concat'),
     sourcemaps = require('gulp-sourcemaps'),
@@ -18,16 +20,27 @@ const c = require('./constants'),
 
 console.log(c.DEST_FILES_PATH);
 
+const isCss = function (file) {
+    return file.extname == '.css';
+}
+const isSass = function (file) {
+    return file.extname == '.sass' || file.extname == '.scss'
+}
+// const isSass = function (file) {
+//     return file.extname == '.scss'
+// }
+
 task('clean', () => src(c.DEST_FILES_PATH, { read: false })
     .pipe(clean())
 );
 
 task('css', () =>
-    src(c.SRC_PATH + 'style/**/*.css')
+    src(c.STYLES_ORDER)
         // src(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}')
         .pipe(sourcemaps.init())
-        .pipe(csso())
-        .pipe(autoprefixer({ cascade: false }))
+        .pipe(gulpif(isCss, csso()))
+        .pipe(gulpif(isSass, sass()))
+        .pipe(autoprefixer({ cascade: false}))//browsers in package.json
         .pipe(concat('main.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(dest(c.DEST_PATH + '/style/'))
@@ -56,8 +69,9 @@ task('images', () =>
 task('sass:watch', () =>
     watch(c.SRC_PATH + 'style/sass/*.s*ss', series('sass'))
 );
+
 task('css:watch', () =>
-    watch(c.SRC_PATH + 'style/*.css', series('css'))
+    watch(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}', series('css'))
 );
 task('scripts:watch', () =>
     watch(c.SRC_PATH + 'script/*.js', series('scripts'))
@@ -68,12 +82,13 @@ task('images:watch', () =>
 
 task('default', series('clean',
     // series('sass', 'sass:watch'),
-    'sass',
+    // 'sass',
     parallel(
         series('css', 'css:watch'),
         series('images', 'images:watch'),
-        series('scripts', 'scripts:watch'),
-        'sass:watch'
+        series('scripts', 'scripts:watch')
+        // ,
+        // 'sass:watch'
     )
 
 )
