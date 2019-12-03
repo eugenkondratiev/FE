@@ -33,40 +33,92 @@
     padding: inherit
 }
 
+/*********************************************/
 nav {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
+    display: inline-flex;
+    padding-inline-start: 3px;
+    border-top: 3px solid #caf4fa;
+    border-right: 2px solid #caf4fa;
+
     list-style: none;
     background-color: #CAF4FA;
 }
 
 nav ul li {
-    padding: 30px;
-    background-color: #00BDDB;
+    float: left;
+
 }
 
 nav ul li a {
+    display: block;
+    float: left;
+
     text-decoration: none;
     color: white;
+    /* height:48px; */
+    padding: 28px 0px 28px 36px;
+    margin: 0 6px 0 0;
+    background-color: #00BDDB;
 }
 
-nav li:last-child,
-nav li:hover {
+nav ul li:first-child a {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 28px;
+}
+
+nav ul li:last-child a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 28px;
+}
+
+
+nav ul li:last-child a {
     background-color: #1D3E8A;
 }
 
-nav li:after {
+
+nav ul li a:hover{
+    background-color: #1D3E8A;
+}
+
+nav ul li:not(:last-child):hover a:after {
+    border-left-color: #1D3E8A;
+}
+nav ul li:not(:last-child) a:after {
     content: "";
     width: 0;
     height: 0;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-
+    /* left: 100%; */
+    position: relative;
+     right: -30px;
+    top: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
     border-left: 30px solid #00BDDB;
+    z-index: 4;
+}
+
+
+nav li:not(:first-child) a:before {
+    content: "";
+    width: 0;
+    height: 0;
+    /* left: -30px; */
+    margin-left: -36px;
+    margin-right: 28px;
+    position: relative;
+    top: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 30px solid #CAF4FA;
     z-index: 2;
 }
 
