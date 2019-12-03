@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Vink";
+    src: url("../font/18097.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Gotic";
+    src: url("../font/18065.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Havana";
+    src: url("../font/18290.ttf") format("truetype")
+}
+
+.fonts-example {
+    font-family: "Havana", "Vink", "Gotic", "Arial";
+    width: 70%;
+    padding: 30px;
+    /* background: red; */
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+.triggers-example,
+.radiobutton-example {
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 0 30px;
+}
+
+.font1 {
+    padding: inherit
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #CAF4FA;
+}
+
+nav ul li {
+    padding: 30px;
+    background-color: #00BDDB;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:last-child,
+nav li:hover {
+    background-color: #1D3E8A;
+}
+
+nav li:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    border-left: 30px solid #00BDDB;
+    z-index: 2;
+}
+
+/*-------------------------------------*/
+.round-switch {
+    position: relative;
+    display: inline-block;
+    width: 68px;
+    height: 34px;
+}
+
+.round-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.round-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid #B9B9B9;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.round-slider {
+    background-color: #52D666;
+}
+
+input:focus+.round-slider {
+    box-shadow: 0 0 1px #52D666;
+}
+
+input:checked+.round-slider:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+}
+
+.round-slider:before {
+    position: absolute;
+    content: "";
+    height: 34px;
+    width: 34px;
+
+    /* left: 2px; */
+    /* bottom: 2px; */
+    border: 2px solid darkgrey;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.round-slider {
+    border-radius: 38px;
+}
+
+.round-slider:before {
+    border-radius: 50%;
+}
