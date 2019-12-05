@@ -58,9 +58,11 @@ nav ul li {
     float: left;
 
 }
+
 a span {
     padding: 30% 0;
 }
+
 nav ul li a {
     display: block;
     float: left;
@@ -143,6 +145,15 @@ nav li:not(:first-child) a:before {
 }
 
 /*-------------------------------------*/
+.triggers-expamle {
+    line-height: 2.8em;
+}
+
+.triggers-expamle>span {
+    font-size: 2em;
+
+}
+
 .round-switch {
     position: relative;
     display: inline-block;
@@ -178,19 +189,17 @@ input:focus+.round-slider {
 }
 
 input:checked+.round-slider:before {
-    -webkit-transform: translateX(34px);
-    -ms-transform: translateX(34px);
-    transform: translateX(34px);
+    -webkit-transform: translateX(32px);
+    -ms-transform: translateX(32px);
+    transform: translateX(32px);
 }
 
 .round-slider:before {
     position: absolute;
     content: "";
-    height: 34px;
-    width: 34px;
+    height: 30px;
+    width: 30px;
 
-    /* left: 2px; */
-    /* bottom: 2px; */
     border: 2px solid darkgrey;
     background-color: white;
     -webkit-transition: .4s;
@@ -198,9 +207,76 @@ input:checked+.round-slider:before {
 }
 
 .round-slider {
-    border-radius: 38px;
+    border-radius: 32px;
 }
 
 .round-slider:before {
     border-radius: 50%;
+}
+
+/****************************************************************************/
+/* radio-button */
+.radio-button {
+    display: block;
+    position: relative;
+    padding-left: 42px;
+    margin-bottom: 12px;
+    line-height: 1.5em;
+        cursor: pointer;
+    font-family: "Havana", "Vink", "Gotic", "Arial";
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.radio-new {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px;
+    width: 36px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    border: solid 3px green;
+    /*    border-width:2px;
+      border-color:green;
+  */
+}
+
+.radio-button input:checked~.radio-new {
+    background-color: #E8ECEE;
+    /* background-color: #2196F3;*/
+}
+
+.radio-new:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #D7D7D7;
+}
+
+.radio-button input:checked~.radio-new:after {
+    display: block;
+    background: #066C05
+}
+
+.radio-button .radio-new:after {
+    top: 12px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #D6D6D6;
+}
+
+.radio-label {
+    padding-left:4px;
+    vertical-align: middle;
 }
