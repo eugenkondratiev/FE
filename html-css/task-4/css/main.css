@@ -45,13 +45,15 @@ nav {
 
 nav ul {
     overflow: hidden;
-    display: inline-flex;
+    display: inline-block;
     padding-inline-start: 3px;
     border-top: 3px solid #caf4fa;
     border-right: 2px solid #caf4fa;
 
     list-style: none;
     background-color: #CAF4FA;
+    margin-right: -10px;
+
 }
 
 nav ul li {
@@ -59,17 +61,20 @@ nav ul li {
 
 }
 
-a span {
+/* a span {
     padding: 30% 0;
-}
+} */
 
 nav ul li a {
-    display: block;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
     float: left;
-    /* vertical-align: middle; */
     text-decoration: none;
     color: white;
-    /* height:48px; */
+    font-size: 1em;
+    font-family: "Arial";
+    height:74px;
     padding: 0px 0px 0px 36px;
     margin: 0 6px 0 0;
     background-color: #00BDDB;
@@ -87,12 +92,17 @@ nav ul li:last-child a {
     padding-right: 28px;
 }
 
-a:before,
-a:after {
+a:before {
     box-sizing: border-box;
     display: inline-block;
     border-style: solid;
     /* border-radius: 5px; */
+}
+
+a:after {
+    box-sizing: border-box;
+    display: inline-block;
+    /* border-style: solid; */
 }
 
 nav ul li:last-child a,
@@ -102,34 +112,50 @@ nav ul li a:active {
 }
 
 nav ul li:not(:last-child):hover a:after {
-    border-left-color: #1D3E8A;
+    background-color: #1D3E8A;
 }
 
 /* nav ul li:not(:last-child):after { */
-nav ul li:not(:last-child) a:after {
+/* nav ul li:not(:last-child) a:after {
     content: "";
     width: 0px;
     height: 74px;
     position: relative;
     right: -30px;
     top: 0;
-    /* border-top: solid 48px transparent;
-    border-bottom: solid 48px transparent;
-    border-left: solid 30px #00BDDB; */
     border-width: 36px 0 36px 30px;
     border-color: transparent transparent transparent #00BDDB;
-    border-color: transparent transparent transparent #00BDDB;
+    z-index: 4;
+} */
 
+
+nav ul li:not(:last-child) a:after {
+    content: "";
+    display: inline-block;
+    box-shadow: 0.3em -0.3em 0 0em #CAF4FA;
+    background: #00BDDB;
+    width: 3.3em;
+    height: 3.3em;
+    right: -26px;
+    position: relative;
+    overflow: hidden;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    border-top-right-radius: 0.35em;
+     -webkit-border-radius: 0 0.35em 0 0;
+    -moz-border-radius: 0 0.35em 0 0;
+    border-radius: 0 0.35em 0 0;
     z-index: 4;
 }
 
-
-/* nav li:not(:first-child):before { */
 nav li:not(:first-child) a:before {
     content: "";
     width: 0px;
     height: 74px;
-    /* left: -30px; */
+
     margin-left: -36px;
     margin-right: 28px;
     position: relative;
@@ -137,12 +163,13 @@ nav li:not(:first-child) a:before {
     border-width: 36px 0 36px 30px;
     border-color: transparent transparent transparent #CAF4FA;
     border-style: solid;
-
-    /* border-top: solid 48px transparent;
-    border-bottom: solid 48px transparent;
-    border-left: solid 30px #CAF4FA; */
     z-index: 2;
 }
+
+nav ul li:last-child a {
+    margin-right: 0;
+}
+
 
 /*-------------------------------------*/
 .triggers-expamle {
@@ -162,9 +189,10 @@ nav li:not(:first-child) a:before {
 }
 
 .round-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+    /* opacity: 0; */
+    /* width: 0; */
+    /* height: 0; */
+    appearance: none;
 }
 
 .round-slider {
@@ -222,7 +250,7 @@ input:checked+.round-slider:before {
     padding-left: 42px;
     margin-bottom: 12px;
     line-height: 1.5em;
-        cursor: pointer;
+    cursor: pointer;
     font-family: "Havana", "Vink", "Gotic", "Arial";
     font-size: 22px;
     -webkit-user-select: none;
@@ -234,8 +262,10 @@ input:checked+.round-slider:before {
 .radio-button input {
     position: absolute;
     opacity: 0;
+    /* appearance: none; */
     cursor: pointer;
 }
+
 .radio-new {
     position: absolute;
     top: 0;
@@ -277,6 +307,6 @@ input:checked+.round-slider:before {
 }
 
 .radio-label {
-    padding-left:4px;
+    padding-left: 4px;
     vertical-align: middle;
 }

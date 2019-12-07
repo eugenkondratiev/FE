@@ -1,5 +1,5 @@
 require('dotenv').config();
-
+const homePath = require('./constants').HOME_PATH;
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -20,13 +20,28 @@ app.get('/download/:file.jpg', (req, res, next) => {
     }
 
 })
+const options = {
+    dotfiles: 'ignore',
+    etag: false,
+    // extensions: ['htm', 'html'],
+    index: 'index.html',
+    // maxAge: '1d',
+    redirect: false,
+    setHeaders: function (res, path, stat) {
+        // res.set( 'Hello', 'world' );
+      res.set( 'x-timestamp', Date.now() );
+      // res.set( 'content-type', 'application/octet-stream' );
+    }
+  };
 
 // app.use(express.static('html-css/task-3/public'))
-app.use(express.static('html-css/task-4'))
+app.use(express.static(homePath, options));
+app.use(express.static(homePath + '/public', options));
 
 
 app.get('/', (req, res, next) => {
-    res.sendFile('./index.html', err => {
+    res.sendFile(homePath + '/index.html', err => {
+        // res.sendFile('./index.html', err => {
         if (err) console.log(err.message);
     })
 })

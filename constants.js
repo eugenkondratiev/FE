@@ -1,7 +1,8 @@
-const DEST_PATH = 'html-css/task-1/public/';
+const HOME_PATH = 'html-css/task5/';
+const DEST_PATH = 'html-css/task5/public/';
 const DEST_FILES_PATH = DEST_PATH + '*';
-const SRC_PATH = 'html-css/task-1/';
-const STYLES_PATH = 'html-css/task-1/style/';
+const SRC_PATH = 'html-css/task5/src/';
+const STYLES_PATH = SRC_PATH +'css/';
 
 const STYLES_ORDER = [
     STYLES_PATH + 'main.css',
@@ -13,5 +14,6 @@ module.exports = {
     DEST_PATH,
     DEST_FILES_PATH,
     SRC_PATH,
-    STYLES_ORDER
+    STYLES_ORDER,
+    HOME_PATH
 }

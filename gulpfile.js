@@ -10,8 +10,9 @@ const c = require('./constants'),
     // const gulp = require('gulp');
     sass = require('gulp-sass'),
     clean = require('gulp-clean'),
+    cssimport = require('gulp-cssimport'),
     gulpif = require('gulp-if'),
-    cache = require('gulp-cache'),
+    // cache = require('gulp-cache'),
     csso = require('gulp-csso'),
     concat = require('gulp-concat'),
     sourcemaps = require('gulp-sourcemaps'),
@@ -35,19 +36,22 @@ task('clean', () => src(c.DEST_FILES_PATH, { read: false })
 );
 
 task('css', () =>
-    src(c.STYLES_ORDER)
-        // src(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}')
-        .pipe(sourcemaps.init())
-        .pipe(gulpif(isCss, csso()))
-        .pipe(gulpif(isSass, sass()))
-        .pipe(autoprefixer({ cascade: false}))//browsers in package.json
-        .pipe(concat('main.min.css'))
-        .pipe(sourcemaps.write('.'))
-        .pipe(dest(c.DEST_PATH + '/style/'))
+    // src(c.STYLES_ORDER)
+    // src(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}')
+    src(c.SRC_PATH + 'css/main.css')
+        // .pipe(sourcemaps.init())
+        // .pipe(gulpif(isCss, csso()))
+        // .pipe(gulpif(isSass, sass()))
+        .pipe(cssimport())
+        .pipe(autoprefixer({ cascade: false }))//browsers in package.json
+        .pipe(csso())
+        // .pipe(concat('main.min.css'))
+        // .pipe(sourcemaps.write('.'))
+        .pipe(dest(c.DEST_PATH + '/css/'))
 )
 
 task('sass', () =>
-    src(c.SRC_PATH + 'style/sass/*')
+    src(c.SRC_PATH + 'css/sass/*')
         .pipe(sourcemaps.init())
         .pipe(sass())
         // .pipe(autoprefixer({ cascade: false}))
@@ -57,8 +61,8 @@ task('sass', () =>
 )
 
 task('scripts', () =>
-    src(c.SRC_PATH + 'script/*')
-        .pipe(dest(c.DEST_PATH + '/script/'))
+    src(c.SRC_PATH + 'js/*')
+        .pipe(dest(c.DEST_PATH + '/js/'))
 )
 
 task('images', () =>
@@ -67,14 +71,14 @@ task('images', () =>
 )
 
 task('sass:watch', () =>
-    watch(c.SRC_PATH + 'style/sass/*.s*ss', series('sass'))
+    watch(c.SRC_PATH + 'css/sass/*.s*ss', series('sass'))
 );
 
 task('css:watch', () =>
-    watch(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}', series('css'))
+    watch(c.SRC_PATH + 'css/**/*.{css,scss,sass,less}', series('css'))
 );
 task('scripts:watch', () =>
-    watch(c.SRC_PATH + 'script/*.js', series('scripts'))
+    watch(c.SRC_PATH + 'js/*.js', series('scripts'))
 );
 task('images:watch', () =>
     watch(c.SRC_PATH + 'img/*.*', series('images'))
@@ -90,6 +94,5 @@ task('default', series('clean',
         // ,
         // 'sass:watch'
     )
-
 )
 );
