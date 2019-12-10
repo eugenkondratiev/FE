@@ -1,0 +1,14 @@
+#main-aside {
+    background: lightgrey;
+    padding: 1em;
+    display:flex;
+    flex-flow: column wrap;
+}
+
+@media screen and (max-device-width: 450px) and (orientation : portrait) {
+    .main-aside {
+        display: flex;
+    }
+
+    
+}

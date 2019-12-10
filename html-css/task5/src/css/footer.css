@@ -1,0 +1,5 @@
+#main-footer {
+    display: flex;
+    min-height: 4em;
+    background: grey;
+}

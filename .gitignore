@@ -66,5 +66,5 @@ package-lock.json
 */package-lock.json
 
 #gupl destination directory
-public
+#public
 gulp-cache
