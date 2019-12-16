@@ -39,14 +39,14 @@ task('css', () =>
     // src(c.STYLES_ORDER)
     // src(c.SRC_PATH + 'style/**/*.{css,scss,sass,less}')
     src(c.SRC_PATH + 'css/main.css')
-        // .pipe(sourcemaps.init())
+        .pipe(sourcemaps.init())
         // .pipe(gulpif(isCss, csso()))
         // .pipe(gulpif(isSass, sass()))
         .pipe(cssimport())
         .pipe(autoprefixer({ cascade: false }))//browsers in package.json
         .pipe(csso())
         // .pipe(concat('main.min.css'))
-        // .pipe(sourcemaps.write('.'))
+        .pipe(sourcemaps.write('.'))
         .pipe(dest(c.DEST_PATH + '/css/'))
 )
 

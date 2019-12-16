@@ -55,7 +55,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px 14em 20px 14em;
+    padding: 1.2em 1em;
 }
 
 nav ul li {

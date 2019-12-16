@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,14 @@
     <title>HP HMI</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <div class="main-container">
         <header id="main-header">
             <picture>
-                <img src="/img/hphmi.png"
-                     alt="HP HMI"
-                     style="object-fit: cover;"
-                />
-              </picture>
-        </header>
+                <img src="/img/hphmi.png" alt="HP HMI" style="object-fit: cover;" />
+            </picture>
+        </header>   
         <nav id="main-nav">
             <ul class="main-menu">
                 <li class="menu-item">
@@ -42,11 +41,33 @@
 
         </aside>
         <main id="main-main">
-
+            <div class="central-wrapper--v60-40">
+                <div class="touch-slider">
+                    <input type="checkbox" class="touch-slider__control">
+                    <div class="touch-slider__slide flex-centered">
+                        <figure class="inner-figure"><img src="/img/arg.jpg" alt="Argentina">
+                            <figurecaption>Argentina</figurecaption>
+                        </figure>
+                    </div>
+                    <input type="checkbox" class="touch-slider__control">
+                    <div class="touch-slider__slide flex-centered">
+                        <figure class="inner-figure"><img src="/img/de.jpg" alt="Germany">
+                            <figurecaption>Germany</figurecaption>
+                        </figure>
+                    </div>
+                    <input type="checkbox" class="touch-slider__control">
+                    <div class="touch-slider__slide flex-centered">
+                        <figure class="inner-figure"><img src="/img/uru.jpg" alt="Uruguay">
+                            <figurecaption>Uruguay</figurecaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer id="main-footer">
 
-</footer>
+        </footer>
     </div>
 </body>
+
 </html>
