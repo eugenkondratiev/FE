@@ -1,0 +1,30 @@
+* {
+    margin: 1em auto;
+}
+body {
+    background-color: lightcyan;
+}
+button {
+    padding:1em;
+}
+.button-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.text-frame {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    width: 70vw;
+    height:80vw;
+    box-shadow: 1px 3px 9px 4px lightgray;
+    font-size:.8rem;
+}
+.text-frame div {
+    margin:0.2rem;
+}
