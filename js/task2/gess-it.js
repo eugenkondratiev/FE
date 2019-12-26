@@ -1,15 +1,12 @@
 function guessGame(MAX_NUM) {
     MAX_NUM = MAX_NUM || 100;
-    // let data = {
-    //     limits: [0, MAX_NUM]
-    // };
     const theNumber = Math.floor(Math.random() * MAX_NUM);
     let attempts = 0;
     userChoise = -1;
     const makeMove = (data) => {
-        
-        userChoise = data.userChoise !== undefined ?  parseInt(data.userChoise) : userChoise;
-        const d = {attempts : ++attempts};
+
+        userChoise = data.userChoise !== undefined ? parseInt(data.userChoise) : userChoise;
+        const d = { attempts: ++attempts };
 
         if (userChoise === theNumber) {
             d.success = true;
@@ -19,32 +16,38 @@ function guessGame(MAX_NUM) {
         }
         return d;
     };
-    // const getData = () => { data };
-    // const askUser = (data)
-    // for (; userChoise !== theNumber;) {
-    //     const amswer = parseInt(yield data);
-    //     userChoise = askUser && askUser > data.limits[0] ? askUser : data.limits[0];
-    //     data = makeMove(data);
-    //     console.log("data -" + data, "userChoise -" + userChoise);
-    // }
-    // return getData;
     return makeMove;
 };
 
 
-const MAX = 100;
-let g = guessGame(MAX);
-let currentData = { limits: [0, MAX] };
-console.log("currentData.limits " + currentData.limits, "currentData.success - "+currentData.success);
-
-
-while (currentData.success == undefined) {
-    // currentData = g.next(prompt(`выберите число от ${currentData.limits[0]} до ${currentData.limits[1]}`, currentData.limits[1])).value;
-    currentData.userChoise = prompt(`выберите число от ${currentData.limits[0]} до ${currentData.limits[1]}`, currentData.limits[1]);
-    currentData = g(currentData);
-    console.log("currentData.limits -", currentData);
-}
-console.log(`Угадано за ${currentData.attempts} попыток!`);
+document.getElementById("new").addEventListener('click', function (e) {
+    location.reload(true);
+});
 
 
 
+document.getElementById("start").addEventListener('click', function (e) {
+
+    const MAX = 100;
+    let g = guessGame(MAX);
+    let currentData = { limits: [0, MAX] };
+    console.log("currentData.limits " + currentData.limits, "currentData.success - " + currentData.success);
+    addToTextLog(`Попытка ${(currentData.attempts ? currentData.attempts : 0) + 1 }. Текущие пределы { ${currentData.limits.join(" .. ")} }`);
+
+    function addToTextLog(message) {
+        const newDiv = document.createElement("div");
+        newDiv.textContent = message;
+        document.getElementsByClassName("text-frame")[0].appendChild(newDiv);
+        console.log(message);
+    }
+
+    while (!currentData.success) {
+        currentData.userChoise = prompt(`выберите число от ${currentData.limits[0]} до ${currentData.limits[1]}`, currentData.limits[1]);
+        currentData = g(currentData);
+        console.log("currentData.limits -", currentData);
+       if (currentData.limits) addToTextLog(`Попытка ${currentData.attempts + 1}. Текущие пределы { ${currentData.limits.join(" .. ")} }`);
+
+    }
+
+    addToTextLog(`Угадано за ${currentData.attempts} попыток!`);
+})
