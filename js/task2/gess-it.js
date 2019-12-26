@@ -11,8 +11,9 @@ function guessGame(MAX_NUM) {
         if (userChoise === theNumber) {
             d.success = true;
             d.attempts = attempts;
+            d.answer = theNumber;
         } else {
-            d.limits = (userChoise > theNumber) ? [data.limits[0], userChoise] : [userChoise, data.limits[1]];
+            d.limits = (userChoise > theNumber) ? [data.limits[0], userChoise - 1] : [userChoise + 1, data.limits[1]];
         }
         return d;
     };
@@ -32,7 +33,6 @@ document.getElementById("start").addEventListener('click', function (e) {
     let g = guessGame(MAX);
     let currentData = { limits: [0, MAX] };
     console.log("currentData.limits " + currentData.limits, "currentData.success - " + currentData.success);
-    addToTextLog(`Попытка ${(currentData.attempts ? currentData.attempts : 0) + 1 }. Текущие пределы { ${currentData.limits.join(" .. ")} }`);
 
     function addToTextLog(message) {
         const newDiv = document.createElement("div");
@@ -41,13 +41,20 @@ document.getElementById("start").addEventListener('click', function (e) {
         console.log(message);
     }
 
-    while (!currentData.success) {
+    function moveNext() {
+        if (currentData.limits) addToTextLog(`Попытка ${(currentData.attempts ? currentData.attempts : 0) + 1}. Пределы { ${currentData.limits.join(" .. ")} }`);
+
         currentData.userChoise = prompt(`выберите число от ${currentData.limits[0]} до ${currentData.limits[1]}`, currentData.limits[1]);
         currentData = g(currentData);
         console.log("currentData.limits -", currentData);
-       if (currentData.limits) addToTextLog(`Попытка ${currentData.attempts + 1}. Текущие пределы { ${currentData.limits.join(" .. ")} }`);
 
+        if (!currentData.success) {
+            setTimeout(() => {
+                moveNext();
+            }, 0);
+        } else {
+            addToTextLog(`Ответ : ${currentData.answer}. Угадано за ${currentData.attempts} попыток!`);
+        }
     }
-
-    addToTextLog(`Угадано за ${currentData.attempts} попыток!`);
+    moveNext();
 })
