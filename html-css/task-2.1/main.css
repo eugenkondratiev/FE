@@ -1,0 +1,25 @@
+th {
+    font-weight: bold;
+}
+
+td:nth-child(1) {
+    /* font-weight: bold; */
+    width: 40%;
+}
+
+table {
+    border: 3px;
+    border: darkgrey solid 1px;
+    width: 350px;
+}
+td, th {
+    text-align: left;
+    border: black solid 1px;
+    padding: 5px;
+    border-right-color:grey;
+    border-bottom-color: grey;
+
+}
+td[colspan] , th{
+    text-align: center;
+}

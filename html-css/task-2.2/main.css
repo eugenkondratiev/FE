@@ -1,0 +1,63 @@
+body,
+ul {
+    font-family: sans-serif;
+}
+
+aside>ul {
+    list-style: none;
+    padding-left: 0px;
+    /* margin-top: 0.1em; */
+}
+
+aside {
+    width: 40%;
+    float: left;
+}
+
+aside h2 {
+    text-align: left;
+}
+
+aside h4 {
+    margin: 0.7em 0 0.7em 0;
+}
+
+li {
+    font-weight: normal;
+    margin: 0 auto 0 auto;
+}
+
+aside>ul>li {
+    font-weight: bold;
+}
+
+#the-button {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+
+}
+
+#the-button button {
+    font-size: 0.4em;
+    padding: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+#leading-zeros ol {
+    counter-reset: list 0;
+    padding-left: 1em;
+}
+
+#leading-zeros li {
+    list-style: none;
+}
+
+#leading-zeros li::before {
+    counter-increment: list;
+    content: "0"counter(list)". ";
+}

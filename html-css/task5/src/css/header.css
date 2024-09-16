@@ -1,0 +1,12 @@
+#main-header {
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header picture {
+    z-index:2;
+
+
+}

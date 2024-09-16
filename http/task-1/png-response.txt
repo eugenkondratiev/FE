@@ -1,0 +1,40 @@
+No.     Time           Source                Destination           Protocol Length Info
+    106 11.571529      128.119.245.12        192.168.117.52        HTTP     745    HTTP/1.1 200 OK  (PNG)
+
+Frame 106: 745 bytes on wire (5960 bits), 745 bytes captured (5960 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 3994, Ack: 1017, Len: 691
+[3 Reassembled TCP Segments (3611 bytes): #104(1460), #105(1460), #106(691)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Thu, 07 Nov 2019 18:10:24 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 06 Aug 2016 10:08:14 GMT\r\n
+    ETag: "cc3-539645c7f1ee7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 3267\r\n
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/png\r\n
+    \r\n
+    [HTTP response 2/3]
+    [Time since request: 0.580500000 seconds]
+    [Prev request in frame: 92]
+    [Prev response in frame: 98]
+    [Request in frame: 99]
+    [Next request in frame: 220]
+    [Next response in frame: 223]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 3267 bytes
+Portable Network Graphics
+    PNG Signature: 89504e470d0a1a0a
+    Image Header (IHDR)
+    Palette (PLTE)
+    Image data chunk (IDAT)
+    Image Trailer (IEND)

@@ -1,0 +1,1104 @@
+No.     Time           Source                Destination           Protocol Length Info
+     22 3.293118       192.168.117.52        128.119.245.12        TCP      66     51588 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 22: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 3.542664       192.168.117.52        128.119.245.12        TCP      66     51589 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 23: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 3.788978       128.119.245.12        192.168.117.52        TCP      66     80 → 51588 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 25: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 3.789078       192.168.117.52        128.119.245.12        TCP      54     51588 → 80 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 26: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 3.790796       192.168.117.52        128.119.245.12        HTTP     662    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 27: 662 bytes on wire (5296 bits), 662 bytes captured (5296 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 1, Ack: 1, Len: 608
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 3.993566       128.119.245.12        192.168.117.52        TCP      66     80 → 51589 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 28: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 3.993676       192.168.117.52        128.119.245.12        TCP      54     51589 → 80 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 29: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 4.301022       128.119.245.12        192.168.117.52        TCP      60     80 → 51588 [ACK] Seq=1 Ack=609 Win=30464 Len=0
+
+Frame 30: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 1, Ack: 609, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 4.301441       128.119.245.12        192.168.117.52        HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 31: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 1, Ack: 609, Len: 240
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 4.342068       192.168.117.52        128.119.245.12        TCP      54     51588 → 80 [ACK] Seq=609 Ack=241 Win=65280 Len=0
+
+Frame 32: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 609, Ack: 241, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 9.002132       192.168.117.52        128.119.245.12        HTTP     593    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 78: 593 bytes on wire (4744 bits), 593 bytes captured (4744 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 609, Ack: 241, Len: 539
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 9.523558       128.119.245.12        192.168.117.52        TCP      60     [TCP Previous segment not captured] 80 → 51588 [ACK] Seq=242 Ack=1148 Win=31744 Len=0
+
+Frame 83: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 242, Ack: 1148, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 10.444785      128.119.245.12        192.168.117.52        TCP      60     [TCP Retransmission] 80 → 51588 [FIN, ACK] Seq=241 Ack=1148 Win=31744 Len=0
+
+Frame 89: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 241, Ack: 1148, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 10.445443      192.168.117.52        128.119.245.12        TCP      54     51588 → 80 [ACK] Seq=1148 Ack=242 Win=65280 Len=0
+
+Frame 90: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 1148, Ack: 242, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 10.445752      192.168.117.52        128.119.245.12        TCP      54     51588 → 80 [FIN, ACK] Seq=1148 Ack=242 Win=65280 Len=0
+
+Frame 91: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51588, Dst Port: 80, Seq: 1148, Ack: 242, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 10.447687      192.168.117.52        128.119.245.12        HTTP     593    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 92: 593 bytes on wire (4744 bits), 593 bytes captured (4744 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1, Ack: 1, Len: 539
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 10.961603      128.119.245.12        192.168.117.52        TCP      60     80 → 51588 [ACK] Seq=242 Ack=1149 Win=31744 Len=0
+
+Frame 96: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51588, Seq: 242, Ack: 1149, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 10.961604      128.119.245.12        192.168.117.52        TCP      60     80 → 51589 [ACK] Seq=1 Ack=540 Win=30336 Len=0
+
+Frame 97: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 1, Ack: 540, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 10.961606      128.119.245.12        192.168.117.52        HTTP     1127   HTTP/1.1 200 OK  (text/html)
+
+Frame 98: 1127 bytes on wire (9016 bits), 1127 bytes captured (9016 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 1, Ack: 540, Len: 1073
+Hypertext Transfer Protocol
+Line-based text data: text/html (17 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 10.991029      192.168.117.52        128.119.245.12        HTTP     531    GET /pearson.png HTTP/1.1 
+
+Frame 99: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 540, Ack: 1074, Len: 477
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 10.991524      192.168.117.52        128.119.245.12        TCP      66     51590 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 100: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 11.241462      192.168.117.52        128.119.245.12        TCP      66     51591 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 101: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51591, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 11.571095      128.119.245.12        192.168.117.52        TCP      66     80 → 51590 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 102: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 11.571305      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 103: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 11.571521      128.119.245.12        192.168.117.52        TCP      1514   80 → 51589 [ACK] Seq=1074 Ack=1017 Win=31360 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 104: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 1074, Ack: 1017, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 11.571524      128.119.245.12        192.168.117.52        TCP      1514   80 → 51589 [ACK] Seq=2534 Ack=1017 Win=31360 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 105: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 2534, Ack: 1017, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 11.571529      128.119.245.12        192.168.117.52        HTTP     745    HTTP/1.1 200 OK  (PNG)
+
+Frame 106: 745 bytes on wire (5960 bits), 745 bytes captured (5960 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 3994, Ack: 1017, Len: 691
+[3 Reassembled TCP Segments (3611 bytes): #104(1460), #105(1460), #106(691)]
+Hypertext Transfer Protocol
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 11.571702      192.168.117.52        128.119.245.12        TCP      54     51589 → 80 [ACK] Seq=1017 Ack=4685 Win=65536 Len=0
+
+Frame 107: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1017, Ack: 4685, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 11.573303      192.168.117.52        128.119.245.12        HTTP     545    GET /~kurose/cover_5th_ed.jpg HTTP/1.1 
+
+Frame 108: 545 bytes on wire (4360 bits), 545 bytes captured (4360 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 1, Ack: 1, Len: 491
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 11.673344      128.119.245.12        192.168.117.52        TCP      66     80 → 51591 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 109: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51591, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 11.673458      192.168.117.52        128.119.245.12        TCP      54     51591 → 80 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 110: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51591, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 12.083432      128.119.245.12        192.168.117.52        TCP      60     80 → 51590 [ACK] Seq=1 Ack=492 Win=30336 Len=0
+
+Frame 112: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 1, Ack: 492, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 12.083434      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=1 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 113: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 1, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 12.084457      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=1461 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 114: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 1461, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 12.084460      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=2921 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 115: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 2921, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 12.084659      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=4381 Win=65536 Len=0
+
+Frame 116: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 4381, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 12.085076      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=4381 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 117: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 4381, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 12.085078      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=5841 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 118: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 5841, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 12.085085      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=7301 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 119: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 7301, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 12.085087      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=8761 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 120: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 8761, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 12.085088      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=10221 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 121: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 10221, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 12.085089      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=11681 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 122: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 11681, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 12.085312      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=13141 Win=65536 Len=0
+
+Frame 123: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 13141, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 12.085562      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=13141 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 124: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 13141, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 12.085671      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=14601 Win=65536 Len=0
+
+Frame 125: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 14601, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 12.493488      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=14601 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 128: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 14601, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 12.494035      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=16061 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 129: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 16061, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 12.494037      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=17521 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 130: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 17521, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 12.494043      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=18981 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 131: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 18981, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 12.494246      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=20441 Win=65536 Len=0
+
+Frame 132: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 20441, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 12.494697      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=20441 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 133: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 20441, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 12.494698      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=21901 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 134: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 21901, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 12.494701      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=23361 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 135: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 23361, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 12.494833      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0
+
+Frame 136: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 12.495209      128.119.245.12        192.168.117.52        TCP      1514   [TCP Previous segment not captured] 80 → 51590 [ACK] Seq=26281 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 137: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 26281, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 12.495210      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=27741 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 138: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 27741, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 12.495212      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=29201 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 139: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 29201, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 12.495213      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=30661 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 140: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 30661, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 12.495215      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=32121 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 141: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 32121, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 12.495216      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=33581 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 142: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 33581, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 12.495217      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=35041 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 143: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 35041, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 12.495219      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=36501 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 144: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 36501, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 12.495221      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=37961 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 145: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 37961, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 12.495222      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=39421 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 146: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 39421, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 12.495224      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=40881 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 147: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 40881, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 12.495225      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=42341 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 148: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 42341, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 12.495226      128.119.245.12        192.168.117.52        TCP      1514   [TCP Out-Of-Order] 80 → 51590 [ACK] Seq=24821 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 149: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 24821, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 12.495335      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#1] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=27741
+
+Frame 150: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 12.495743      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#2] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=29201
+
+Frame 151: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 12.495950      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#3] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=30661
+
+Frame 152: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 12.496015      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#4] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=32121
+
+Frame 153: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 12.496068      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#5] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=33581
+
+Frame 154: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 12.496117      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#6] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=35041
+
+Frame 155: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 12.496174      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#7] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=36501
+
+Frame 156: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 12.496235      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#8] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=37961
+
+Frame 157: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 12.496442      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#9] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=39421
+
+Frame 158: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 12.496636      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#10] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=40881
+
+Frame 159: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 12.496910      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#11] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=42341
+
+Frame 160: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 12.496980      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 136#12] 51590 → 80 [ACK] Seq=492 Ack=24821 Win=65536 Len=0 SLE=26281 SRE=43801
+
+Frame 161: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 24821, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 12.497112      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=43801 Win=65536 Len=0
+
+Frame 162: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 43801, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 12.800123      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=43801 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 166: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 43801, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 12.800123      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=45261 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 167: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 45261, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 12.800230      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=46721 Win=65536 Len=0
+
+Frame 168: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 46721, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 12.800677      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=46721 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 169: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 46721, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 12.800678      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=48181 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 170: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 48181, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 12.800680      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=49641 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 171: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 49641, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    172 12.800681      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=51101 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 172: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 51101, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    173 12.800682      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=52561 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 173: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 52561, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 12.800682      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=54021 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 174: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 54021, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 12.800683      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=55481 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 175: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 55481, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 12.800684      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=56941 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 176: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 56941, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 12.800804      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=58401 Win=65536 Len=0
+
+Frame 177: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 58401, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 12.800952      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=58401 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 178: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 58401, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 12.800953      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=59861 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 179: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 59861, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 12.800954      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=61321 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 180: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 61321, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 12.800955      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=62781 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 181: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 62781, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 12.800955      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=64241 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 182: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 64241, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    183 12.801023      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=65701 Win=65536 Len=0
+
+Frame 183: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 65701, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 12.801262      128.119.245.12        192.168.117.52        TCP      1514   [TCP Out-Of-Order] 80 → 51590 [ACK] Seq=24821 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 184: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 24821, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 12.801263      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=65701 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 185: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 65701, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 12.801289      192.168.117.52        128.119.245.12        TCP      66     [TCP Dup ACK 183#1] 51590 → 80 [ACK] Seq=492 Ack=65701 Win=65536 Len=0 SLE=24821 SRE=26281
+
+Frame 186: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 65701, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    187 12.801465      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=67161 Win=65536 Len=0
+
+Frame 187: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 67161, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 12.801717      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=67161 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 188: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 67161, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 12.801718      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=68621 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 189: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 68621, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 12.801874      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=70081 Win=65536 Len=0
+
+Frame 190: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 70081, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 12.801917      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=70081 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 191: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 70081, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 12.803720      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=71541 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 192: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 71541, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 12.803788      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=73001 Win=65536 Len=0
+
+Frame 193: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 73001, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 12.805208      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=73001 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 194: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 73001, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 12.806569      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=74461 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 195: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 74461, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 12.806615      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=75921 Win=65536 Len=0
+
+Frame 196: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 75921, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 13.005966      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=75921 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 200: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 75921, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 13.005968      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=77381 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 201: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 77381, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 13.005973      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=78841 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 202: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 78841, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    203 13.005974      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=80301 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 203: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 80301, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 13.005976      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=81761 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 204: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 81761, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    205 13.005977      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=83221 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 205: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 83221, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 13.005978      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=84681 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 206: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 84681, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 13.005979      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=86141 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 207: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 86141, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 13.005980      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=87601 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 208: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 87601, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 13.005982      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=89061 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 209: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 89061, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    210 13.005983      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=90521 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 210: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 90521, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    211 13.006283      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=91981 Win=65536 Len=0
+
+Frame 211: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 91981, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 13.006880      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=91981 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 212: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 91981, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 13.006884      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=93441 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 213: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 93441, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    214 13.006886      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=94901 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 214: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 94901, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    215 13.006888      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=96361 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 215: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 96361, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    216 13.006890      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=97821 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 216: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 97821, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    217 13.006892      128.119.245.12        192.168.117.52        TCP      1514   80 → 51590 [ACK] Seq=99281 Ack=492 Win=30336 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 217: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 99281, Ack: 492, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 13.006894      128.119.245.12        192.168.117.52        HTTP     632    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 218: 632 bytes on wire (5056 bits), 632 bytes captured (5056 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 100741, Ack: 492, Len: 578
+[71 Reassembled TCP Segments (101318 bytes): #113(1460), #114(1460), #115(1460), #117(1460), #118(1460), #119(1460), #120(1460), #121(1460), #122(1460), #124(1460), #128(1460), #129(1460), #130(1460), #131(1460), #133(1460), #134(1460), #13]
+Hypertext Transfer Protocol
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    219 13.007233      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=101319 Win=65536 Len=0
+
+Frame 219: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 101319, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    220 13.028813      192.168.117.52        128.119.245.12        HTTP     531    GET /favicon.ico HTTP/1.1 
+
+Frame 220: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1017, Ack: 4685, Len: 477
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    223 13.312281      128.119.245.12        192.168.117.52        HTTP     538    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 223: 538 bytes on wire (4304 bits), 538 bytes captured (4304 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51589, Seq: 4685, Ack: 1494, Len: 484
+Hypertext Transfer Protocol
+Line-based text data: text/html (7 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    224 13.353257      192.168.117.52        128.119.245.12        TCP      54     51589 → 80 [ACK] Seq=1494 Ack=5169 Win=65024 Len=0
+
+Frame 224: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51589, Dst Port: 80, Seq: 1494, Ack: 5169, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    252 16.720303      128.119.245.12        192.168.117.52        TCP      60     80 → 51590 [FIN, ACK] Seq=101319 Ack=492 Win=30336 Len=0
+
+Frame 252: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.117.52
+Transmission Control Protocol, Src Port: 80, Dst Port: 51590, Seq: 101319, Ack: 492, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    253 16.720818      192.168.117.52        128.119.245.12        TCP      54     51590 → 80 [ACK] Seq=492 Ack=101320 Win=65536 Len=0
+
+Frame 253: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: HonHaiPr_ac:bb:6f (9c:30:5b:ac:bb:6f), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.117.52, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51590, Dst Port: 80, Seq: 492, Ack: 101320, Len: 0

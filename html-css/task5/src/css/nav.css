@@ -1,0 +1,13 @@
+.main-menu {
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    background: lightseagreen;
+}
+.main-nav {
+    background: grey;
+    color:ivory;
+    text-decoration: none;
+
+}
